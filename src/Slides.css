@@ -1,0 +1,19 @@
+.slides{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  background-color: #3d4ddd;
+  max-width: 100vw;
+}
+
+.doctor{
+  place-items: center;
+  background-color: #b369af;
+  height: available;
+}
+/* 
+.sliderimg{
+  padding-left: 25%;
+  width: 50vw;
+  height:50vh;
+} */

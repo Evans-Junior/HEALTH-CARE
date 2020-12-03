@@ -1,0 +1,44 @@
+.login {
+    display: flex;
+    background-size: 100% 86%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    flex: 0.35;
+    height: 100vh;
+    padding-top: 142px;
+    padding-left: 30px;
+    margin-left: 25px;
+    margin-right: 30px;
+    border-style: solid rgb(44, 51, 53);
+  }
+
+  .container-sm{
+    width: 20vw;
+    height: 42vh;
+    border-radius: 20px;
+  }
+.form-control{
+    outline: none;
+    size: 70;
+    width: 10;
+}
+
+.buttom{
+    place-items: center;
+    color: rgb(66, 197, 143);
+}
+
+.dropdown-divider{
+  z-index: 1;
+}
+
+.dropdown-item{
+    text-decoration: none;
+}
+
+.customer{
+  bottom: 0;
+  right: 0;
+}
+
+  

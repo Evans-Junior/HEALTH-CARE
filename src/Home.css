@@ -1,0 +1,42 @@
+.home{
+    background-color: #dadbd3;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    display:flex;
+    flex: 1; 
+    place-items: center;
+    padding-left: 20px;
+}
+
+.flex {
+    padding-top:10px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.doc{
+    margin-left: 50px;
+}
+
+.video{
+    margin: 20px;
+    align-content: center;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+
+.flex{
+    background-color: rgb(121, 212, 235);
+    border-radius: 50px;
+}
+
+.flex_1{
+    border-radius: 50px;
+    background-color: rgb(101, 201, 154);
+    justify-content: center;
+    display: flex; 
+    flex-wrap: wrap;   
+}
+
+
+

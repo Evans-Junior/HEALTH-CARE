@@ -1,0 +1,54 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #f6f8fa;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .name >h3{
+      margin-right: 20px;
+    color: rgb(98, 33, 172);
+      font-size: bold;
+      padding: 20px;
+  }
+
+.header__option{
+    display: flex;
+    margin-left: auto;
+    padding: 20px;
+    font-size: 10px; 
+    color: rgb(24, 17, 27);
+    justify-content: space-evenly;   
+}
+
+.header__optionLineOne{
+    padding: 20px; 
+}
+
+.header__optionLineTwo{
+    padding: 20px; 
+}
+    
+.header__optionLineThree{
+    padding: 20px; 
+}
+
+.link{
+    color: rgb(24, 17, 27);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(41, 41, 172)
+ }
+
+.pic{
+    padding: 8px;
+}
+
+.options{
+    padding: 14px; 
+}

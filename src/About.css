@@ -1,0 +1,20 @@
+.about{
+    display: flex; 
+  height: 25vh;
+  width: 50vw;
+  background-color: #dadbd3;
+  border-radius: 10%;
+  padding: 3px;
+  }
+  
+  .about > h4{
+    align-items: center;
+  }
+  
+  .about > p{
+    margin-bottom: auto;
+    font-size: 17px;
+    align-items: right; 
+    
+   
+  }

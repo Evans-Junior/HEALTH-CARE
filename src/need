@@ -1,0 +1,21 @@
+<h4>How do you feel</h4>
+        <div class="form-group">
+        <label for="exampleFormControlSelect1">Example select</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+
+        export default function Feel(){
+    const{register, handleSubmit} = useForm();
+
+    const onSubmit = (data) => {
+        console.log(data)
+    }
+
+    links to pics:
+     src="https://en.gravatar.com/userimage/195327509/89db860a70704c63ff1fbcef8df1e900?size=128"
+     sidebar:src="https://en.gravatar.com/userimage/195327509/6086df7a3517fcb4a8c62b015ff39de1.jpeg"
